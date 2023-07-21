@@ -1,0 +1,1604 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+@font-face {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    src: url(./fonts/impact.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-block {
+    background: url(./img/bg.png);
+
+    width: 1600px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+
+
+}
+
+header {
+    display: flex;
+
+    align-items: center;
+    width: 1599px;
+    height: 87px;
+    ;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 83px;
+    height: 96px;
+    margin-top: 45px;
+
+}
+
+.first {
+    width: 410px;
+    height: 18px;
+    gap: 40px;
+    margin-right: 119px;
+    margin-left: 225px;
+}
+
+.second {
+    width: 352px;
+    height: 18.2px;
+    gap: 40px;
+    margin-left: 125px;
+}
+
+.lamb {
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 93px;
+    letter-spacing: 0.02em;
+
+    /* Black */
+    color: #040404;
+
+
+    /* Inside auto layout */
+    display: flex;
+    justify-content: center;
+}
+
+.final {
+    /* Гранд-финал 2022 */
+
+    display: flex;
+    justify-content: center;
+
+    /* Подзагловок HO/1 */
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    /* Black */
+    color: #040404;
+
+    display: flex;
+    justify-content: center;
+    /* Inside auto layout */
+
+
+}
+
+.month {
+    /* 3-6 ноября */
+
+    display: flex;
+    justify-content: center;
+
+    /* Подзаголовок HO2 */
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 34px;
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    /* Gold */
+    color: #9F6B08;
+
+
+    /* Inside auto layout */
+
+
+}
+
+svg {
+    margin: 0 auto;
+
+}
+
+.place {
+    /* автодром Портимао,Португалия */
+
+    display: flex;
+    justify-content: center;
+
+    /* Текст 16 меню */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.5307px;
+    line-height: 18px;
+    text-align: right;
+
+    /* Dark grey */
+    color: #363636;
+
+
+    /* Inside auto layout */
+
+
+}
+
+.svg {
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px 0;
+    width: 905px;
+}
+
+
+
+.second-block {
+    width: 1600px;
+    height: 800px;
+
+}
+
+
+
+.main2 {
+    /* Frame 8 */
+
+    /* Auto layout */
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    /* О гонке */
+
+    position: absolute;
+    width: 895px;
+    height: 634px;
+    left: 352px;
+    top: 900px;
+
+
+
+}
+
+
+
+
+
+
+
+/* Парад владельцев, превью и развлечения в паддоке для болельщиков — это лишь некоторые из мероприятий, организованных в рамках мероприятия. */
+.text3 {
+    width: 438px;
+    height: 51px;
+
+    /* Текст Bold 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 17px */
+
+    /* Black */
+    color: #040404;
+
+}
+
+
+
+
+.text1 {
+    /* СУПЕР ТРОФЕО МИРОВОЙ ФИНАЛ */
+
+
+    width: 534px;
+    height: 38px;
+
+    margin-bottom: 34px;
+    /* Заголовок H1 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    /* Black */
+    color: #040404;
+
+
+}
+
+.text2 {
+    /* Мировой финал Lamborghini завершает каждый сезон Super Trofeo с 2013 года. Каждый год гонщики всех континентальных чемпионатов отправляются на разные трассы и принимают участие в двух 50-минутных спринтерских гонках, где определяется победитель в общем зачете. как чемпион мира Lamborghini. Мировой финал Lamborghini — это не только крупнейший гоночный уик-энд года, но и настоящий фестиваль автоспорта, который привлекает поклонников со всего мира. */
+
+    width: 439px;
+    height: 119px;
+
+    /* Teкст 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.8px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Black */
+    color: #040404;
+
+
+    /* Inside auto layout */
+
+
+
+}
+
+.frame8 {
+    /* Frame 8 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 894px;
+    height: 119px;
+    margin-bottom: 30px;
+
+
+
+}
+
+
+
+.main3 {
+    /* Frame 7 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 438px;
+    height: 336px;
+    left: 352px;
+    top: 1634px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.text4 {
+    /* КОМАНДЫ СУПЕР ТРОФЕО */
+
+    width: 438px;
+    height: 38px;
+
+    /* Заголовок H1 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    /* Black */
+    color: #040404;
+
+
+    /* Inside auto layout */
+
+}
+
+.text5 {
+    /* Все автомобили, которые участвуют в чемпионатах Lamborghini Super Trofeo, управляются частными командами, которые используют свой опыт для тонкой настройки их для водителей. Для каждого континентального чемпионата Lamborghini Super Trofeo существуют рейтинги пилотов и команд. */
+
+    width: 352px;
+    height: 102px;
+
+    /* Teкст 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Black */
+    color: #040404;
+
+
+    /* Inside auto layout */
+
+}
+
+.text6 {
+    /* Пилоты и команды, участвующие в континентальной серии, каждый год соревнуются друг с другом в Гранд Финале Lamborghini, мероприятии, которое завершает спортивный сезон Super Trofeo. Две квалификационные сессии и две гонки определяют чемпионов мира серии. Каждый год Гранд-финал проводится на разных трассах, и в прошлых выпусках он уже затрагивал европейский, азиатский и американский континенты. */
+
+    width: 352px;
+    height: 136px;
+
+    /* Teкст 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Black */
+    color: #040404;
+
+
+    /* Inside auto layout */
+}
+
+.race {
+    position: absolute;
+    margin-left: 458px;
+}
+
+.main4 {
+    /* Frame 14 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 438px;
+    height: 174px;
+    left: 352px;
+    top: 2036px;
+
+
+}
+
+.text7 {
+    /* календарь сезона Super Trofeo Europe 2022 года */
+
+    width: 415px;
+    height: 76px;
+
+    /* Заголовок H1 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+
+    /* Black */
+    color: #040404;
+
+
+    /* Inside auto layout */
+
+}
+
+.text8 {
+    /* 14 в истории серии GT, посвященный автомобилям Lamborghini Huracan Super Trofeo Evo. Шесть этапов, в общей сложности 12 гонок и 600 минут соревнований будут разыграны на некоторых из самых престижных трасс Европы. */
+
+    width: 377px;
+    height: 68px;
+
+    /* Teкст 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Black */
+    color: #040404;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.table {
+    /* Frame 13 */
+
+
+    /* Auto layout */
+
+    width: 449px;
+    height: 279px;
+    margin-left: 458px;
+    position: absolute;
+    /* Black */
+
+}
+
+.third-block {
+    background: url(./img/final.png);
+    /* gran_final_01 1 */
+
+    position: absolute;
+    width: 1600px;
+    height: 890px;
+    /* gran_final_01 1 */
+    left: 0px;
+    top: 2415px;
+
+
+
+}
+
+.main5 {
+    /* Frame 15 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 434px;
+    height: 170px;
+    left: 352px;
+    top: 47px;
+}
+
+.text9 {
+    /* ТРЕК ПОРТИМАО */
+
+    width: 228px;
+    height: 38px;
+
+    /* Заголовок H1 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    /* Black */
+    color: #040404;
+
+
+    /* Inside auto layout */
+}
+
+.text10 {
+    /* Autodromo Internacional do Algarve находится в одноименном регионе на юге Португалии, недалеко от города Портиман. Открытый в октябре 2008 года автогоночный комплекс является одним из самых современных в Европе, раскинувшись на площади около 300 гектаров среди холмов, окружающих португальский город, а длина самой трассы составляет 4684 метра. */
+
+    width: 434px;
+    height: 102px;
+
+    /* Teкст 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Black */
+    color: #040404;
+}
+
+.track {
+    /* Group 1 */
+
+    position: absolute;
+    width: 742.77px;
+    height: 332.95px;
+    left: 505px;
+    top: 467px;
+}
+
+
+.fourth-block {
+
+
+
+
+    /* Rectangle 16 */
+
+    position: absolute;
+    width: 1600px;
+    height: 871px;
+    left: 0px;
+    top: 3305px;
+    display: flex;
+    flex-direction: column;
+    /* Dark grey */
+    background: #363636;
+
+}
+
+.text11 {
+    /* СУПЕР ТРОФЕО ЭВО */
+
+    position: absolute;
+    width: 266px;
+    height: 38px;
+    left: 352px;
+    top: 100px;
+
+    /* Заголовок H1 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    /* Белый */
+    color: #FFFFFF;
+
+
+}
+
+.text12 {
+    /* Новый Huracán Super Trofeo EVO достигает еще больших высот, чем его прославленный предшественник, благодаря полностью переработанной аэродинамике. Huracán Super Trofeo EVO является идеальной стартовой площадкой для всех водителей, которые хотят начать карьеру в гонках класса GT. */
+
+    width: 437px;
+    height: 85px;
+
+    /* Teкст 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Белый */
+    color: #FFFFFF;
+}
+
+.text13 {
+    /* Huracán EVO — это эволюция самого успешного Lamborghini с двигателем V10. В результате тонкой настройки и усовершенствования существующих функций в сочетании с новыми конструктивными решениями, повышающими производительность, автомобиль выделяется своей способностью предугадывать и удовлетворять поведение, ожидания и желания водителя. */
+
+    width: 437px;
+    height: 102px;
+
+    /* Teкст 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Белый */
+    color: #FFFFFF;
+}
+
+
+.frame17 {
+    /* Frame 17 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 437px;
+    height: 217px;
+    left: 810px;
+    top: 100px;
+}
+
+
+.polygon4 {
+    /* Polygon 4 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 317px;
+    left: 200px;
+
+
+    /* Gold */
+
+
+}
+
+.polygon2 {
+    /* Polygon 2 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 556px;
+    height: 556px;
+    left: 278px;
+    top: 399px;
+
+
+
+}
+
+
+.lambo {
+    /* kindpng_3621788 */
+
+    position: absolute;
+    width: 725px;
+    height: 214px;
+    left: 437px;
+    top: 515px;
+
+
+}
+
+.polygon5 {
+    /* Polygon 5 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 250px;
+    height: 246px;
+    left: 710px;
+    top: 853px;
+}
+
+
+.lambo1 {
+    /* NicePng_lamborghini-logo-png_8772555 */
+
+    position: absolute;
+    width: 257px;
+    height: 94px;
+    left: 732px;
+    top: 929px;
+
+
+}
+
+.third {
+    /* Frame 16 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    padding: 0px;
+    gap: 65px;
+
+    position: absolute;
+    width: 1162px;
+    height: 34px;
+    top: 787px;
+    left: 219px;
+
+}
+
+.text14 {
+    /* ПЕРЕМЕЩЕНИЕ 5204 см³ */
+
+    width: 91px;
+    height: 34px;
+
+    /* Teкст 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Белый */
+    color: #FFFFFF;
+}
+
+.text15 {
+    width: 193px;
+    height: 34px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.text16 {
+    width: 337px;
+    height: 34px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.text17 {
+    width: 165px;
+    height: 34px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.text18 {
+    width: 116px;
+    height: 34px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+
+.main7 {
+    /* Frame 30 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 590px;
+    height: 298px;
+    left: 352px;
+    top: 997px;
+}
+
+.text19 {
+    /* Его неповторимый дизайн — это естественная эволюция культовых линий Huracán, включающая новые сложные решения, поднимающие производительность и вызывающие эмоции на невиданный ранее уровень. */
+
+    width: 285px;
+    height: 102px;
+
+    /* Teкст 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+
+    color: #040404;
+
+}
+
+.text20 {
+    /* Беспрецедентный обвес был разработан инженерами отдела автоспорта Automobili Lamborghini в сотрудничестве с Dallara Engineering и Lamborghini Centro Stile. Последний также разработал стартовую ливрею для автомобиля в честь партнерства между Lamborghini Squadra Corse и Roger Dubuis, которое началось в 2018 году. */
+
+    width: 437px;
+    height: 85px;
+
+    /* Teкст 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #040404;
+}
+
+.text21 {
+
+    width: 590px;
+    height: 51px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #040404;
+
+}
+
+.polygon3 {
+    /* Polygon 3 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 324px;
+    height: 297px;
+    left: 943px;
+    top: 997px;
+}
+
+.lambo2 {
+    /* kindpng_3621809 */
+
+    position: absolute;
+    width: 199.64px;
+    height: 148.86px;
+    left: 1005.18px;
+    top: 1071px;
+}
+
+.lambo3 {
+    /* Polygon 6 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 900px;
+    height: 258px;
+    left: 355px;
+    top: 1395px;
+
+}
+
+.play {
+    /* arcticons:youtube-studio */
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 775px;
+    top: 1499px;
+    cursor: pointer;
+}
+
+.text22 {
+    /* смотреть онлайн */
+
+    position: absolute;
+    width: 103px;
+    height: 19.76px;
+    left: 748px;
+    top: 1549px;
+
+    /* Teкст 14 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Белый */
+    color: #FFFFFF;
+
+
+}
+
+
+.text23 {
+    /* БЛОГ */
+
+    position: absolute;
+    width: 72px;
+    height: 38px;
+
+    /* Заголовок H1 */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    /* Black */
+    color: #040404;
+
+
+}
+
+.main8 {
+    /* Блог */
+
+    position: absolute;
+    width: 895px;
+    height: 555px;
+    left: 352px;
+    top: 1753px;
+
+
+}
+
+.polygon6 {
+    /* Group 9 */
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 407px;
+    top: 68px;
+    cursor: pointer;
+}
+
+.polygon7 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 458px;
+    top: 68px;
+    cursor: pointer;
+}
+
+.rect18 {
+
+    width: 437px;
+    height: 250px;
+    left: 1px;
+    top: 118px;
+}
+
+.rect17 {
+
+    width: 437px;
+    height: 250px;
+    left: 458px;
+    top: 118px;
+}
+
+.box1 {
+    /* Frame 20 */
+position: absolute;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+
+    width: 435px;
+    height: 167px;
+    left: 1px;
+  top: 118px;
+}
+
+
+
+
+.text24 {
+    width: 435px;
+    height: 46px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #040404;
+}
+
+.text25 {
+    width: 435px;
+    height: 87px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #040404;
+}
+
+.text26{
+    /* читать подробнее... */
+
+width: 106px;
+height: 14px;
+
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+color: #363636;
+cursor: pointer;
+}
+
+.box2{
+        /* Frame 20 */
+position: absolute;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+
+width: 435px;
+height: 167px;
+left: 458px;
+top: 118px;
+}
+.text27{
+width: 196px;
+height: 46px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-transform: uppercase;
+color: #040404;
+}
+
+.text28{
+    width: 435px;
+    height: 87px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #040404;
+    margin-top: 22px;
+}
+
+.text29{
+    width: 106px;
+height: 14px;
+
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+color: #363636;
+cursor: pointer;
+}
+
+
+.main9{
+/* Цытаты */
+
+position: absolute;
+width: 892px;
+height: 272px;
+left: 356px;
+top: 2408px;
+
+}
+
+.box{
+/* Frame 22 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+position: absolute;
+width: 434px;
+height: 255px;
+
+
+}
+
+
+.first-box{
+    /* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 434px;
+height: 112px;
+
+}
+
+.text30{
+width: 64px;
+height: 14px;
+left: 0px;
+top: 0px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+color: #9F6B08;
+}
+
+
+.text31{
+   /* Анджей Левандовски */
+
+width: 143px;
+height: 17px;
+left: 0px;
+top: 17px;
+
+/* Текст Bold 14 */
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+/* identical to box height, or 17px */
+
+/* Black */
+color: #040404;
+}
+
+
+.text32{
+    /* «Я очень доволен титулом, моей второй победой в Am и четвертой в Super Trofeo, мне очень приятно делать это в этом году, потому что уровень соревнований очень высок. Должен сказать, сегодня было довольно легко, так как я все время контролировал ситуацию». */
+
+width: 434px;
+height: 68px;
+/* Текст Italic цытаты */
+font-family: 'Roboto Condensed';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+/* or 17px */
+
+/* Black */
+color: #040404;
+}
+
+
+
+.second-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    
+    width: 434px;
+    height: 113px; 
+}
+
+
+.text33{
+    /* Обладатель кубка Lamborghini */
+
+width: 152px;
+height: 14px;
+left: 0px;
+top: 0px;
+
+/* Текст 12 */
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+/* or 14px */
+
+/* Gold */
+color: #9F6B08;
+}
+
+.text34{
+    /* Жерар ван дер Хорст */
+
+width: 126px;
+height: 17px;
+left: 0px;
+top: 17px;
+
+/* Текст Bold 14 */
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+/* identical to box height, or 17px */
+
+/* Black */
+color: #040404;
+
+
+}
+
+.text35{
+    /* «Я очень доволен титулом, моей второй победой в Am и четвертой в Super Trofeo, мне очень приятно делать это в этом году, потому что уровень соревнований очень высок. Должен Обладатель кубка Lamborghini добавил: «Здорово выиграть титул, спустя четыре года после последнего, а за это время произошло так много всего. Из-за COVID-19, а затем моей тяжелой аварии в Барселоне я не мог так много ездить в последние годы, поэтому я очень доволен своим возвращением. Сегодня утром была тяжелая гонка, но я справился». сказать, сегодня было довольно легко, так как я все время контролировал ситуацию». */
+
+width: 434px;
+height: 69px;
+
+/* Текст Italic цытаты */
+font-family: 'Roboto Condensed';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+/* or 17px */
+
+/* Black */
+color: #040404;
+
+}
+
+
+.last{
+box-sizing: border-box;
+position: absolute;
+left: 458px;
+top: 0;
+}
+
+
+
+.fifth-block{
+    /* Футер */
+
+position: absolute;
+width: 1600px;
+height: 742px;
+left: 0px;
+top: 6085px;
+
+
+
+/* Group 7 */
+
+position: absolute;
+width: 1600px;
+height: 742px;
+left: 0px;
+top: 6085px;
+
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 1600px;
+height: 742px;
+left: 0px;
+top: 6085px;
+
+/* Dark grey */
+background: #363636;
+
+
+}
+
+.main10{
+    /* Frame 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+position: absolute;
+width: 211px;
+height: 417px;
+left: 352px;
+top: 100px;
+}
+
+.text36{
+width: 147px;
+height: 38px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 38px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+.obshie{
+    /* Frame 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 194px;
+height: 113px;
+}
+
+.text37{
+width: 51px;
+height: 19px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+color: #FFFFFF;
+}
+
+.text38{
+width: 121px;
+height: 18px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 15.5307px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
+.text39{
+width: 121px;
+height: 18px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 15.5307px;
+line-height: 18px;
+color: #FFFFFF;
+margin-top: -10px;
+}
+
+.text40{
+width: 194px;
+height: 18px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 15.5307px;
+line-height: 18px;
+color: #FFFFFF;
+margin-top: -10px;
+}
+
+.tickets{
+    /* Frame 25 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 211px;
+height: 86px;
+margin-bottom: 10px;
+}
+
+
+.text41{
+    /* БИЛЕТЫ */
+
+width: 58px;
+height: 19px;
+
+/* Текст 16 Bold */
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+color: #FFFFFF;
+}
+
+.text42{
+width: 121px;
+height: 18px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 15.5307px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
+
+.text43{
+width: 211px;
+height: 18px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 15.5307px;
+line-height: 18px;
+color: #FFFFFF;
+margin-top: -10px;
+}
+
+.socialmedia{
+    /* СОЦ СЕТИ */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 143px;
+height: 30px;
+}
+
+.social{
+    cursor: pointer;
+}
+
+.main11{
+    /* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 454px;
+height: 330px;
+left: 810px;
+top: 188px;
+}
+
+.text44{
+width: 47px;
+height: 19px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+color: #FFFFFF;
+}
+
+.text45{
+width: 449px;
+height: 18px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 15.5307px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
+.map{
+width: 454px;
+height: 253px;
+}
+
+.text46{
+position: absolute;
+width: 168px;
+height: 17px;
+left: 352px;
+top: 625px;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+color: #FFFFFF;
+}
+
+.text47{
+    /* Политика конфиденциальности */
+
+position: absolute;
+width: 187px;
+height: 17px;
+left: 1050px;
+top: 625px;
+
+/* Teкст 14 */
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+/* identical to box height, or 17px */
+
+/* Белый */
+color: #FFFFFF;
+cursor: pointer;
+
+}
+
+.Logo{
+    /* Logo */
+
+position: absolute;
+width: 50px;
+height: 58px;
+left: 775px;
+top: 605px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+}
